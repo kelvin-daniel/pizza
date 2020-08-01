@@ -123,7 +123,7 @@ nav {
 .hero {
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/lbaringo.jpg) center no-repeat fixed;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('./img/3.jpg') center no-repeat fixed;
     background-size: cover;
     position: relative;
 
@@ -428,7 +428,7 @@ footer {
     }
 
     .hero{
-        height: 100vh;
+        height: 60vh;
         width: 100%;
     }
 
