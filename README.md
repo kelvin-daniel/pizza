@@ -3,6 +3,7 @@
 ## Description:
 
 A pizza ordering web application I created as an inndependent project.
+
 ## Author:
 
 [Kelvin Kiplagat](https://github.com/kelvin-daniel/pizza)
