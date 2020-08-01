@@ -8,7 +8,7 @@
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Varela Round Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -81,13 +81,15 @@ nav {
 }
 
 .close i {
-    color: crimson;
+    color: rgb(255, 4, 54);
 }
 
 .nav-list {
-    width: 25rem;
+    width: 20rem;
     height: 100vh;
-    background-color: #d7d4ed;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: #7a7878a9;
     position: fixed;
     top: 0;
     right: -26rem;
@@ -123,7 +125,7 @@ nav {
 .hero {
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('./img/3.jpg') center no-repeat fixed;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%), url('../img/3.jpg') center no-repeat fixed;
     background-size: cover;
     position: relative;
 
@@ -161,20 +163,21 @@ nav {
 }
 
 .btn {
-    background-color: #eb648c;
+    background-color: #10bd1f;
     border-radius: 2rem;
     color: #fafafa;
     display: inline-block;
     margin-top: 2rem;
     padding: 1rem 2.5rem;
     text-transform: uppercase;
+    font-family: round;
     transition: background-color 650ms;
     font-weight: bolder;
 }
 
 
 .btn:hover {
-    background-color: #ce587b;
+    background-color: #cfc643;
 }
 
 .experience-outdoors {
@@ -196,6 +199,11 @@ nav {
     font-family: 'Adrinch', sans-serif;
     font-size: 2.7rem;
     margin: 5rem 0 1rem;
+}
+
+#nu {
+    color: yellowgreen;
+    font-weight: bolder;
 }
 
 .title-heading p {
@@ -222,17 +230,20 @@ nav {
 
 .activities-grid-item::before {
     content: "";
+    border-radius: 5%;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
     z-index: -1;
 }
 
 .star-gazing {
-    background: url("img/tiatihills.jpg") center no-repeat;
+    border-radius: 5%;
+    background: url("../img/4.jpg") center no-repeat;
+    width: 100%;
 }
 
 .hiking {
