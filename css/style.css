@@ -14,12 +14,18 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+}
+
 a {
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(247, 75, 141);
+    color: rgb(115, 247, 75);
 }
 
 ul {
@@ -216,6 +222,10 @@ nav {
     grid-gap: 2.5rem;
 }
 
+.experience-outdoors{
+    background-image: url(../img/menu2.png);
+}
+
 .activities-grid-item {
     height: 40rem;
     padding: 5rem;
@@ -243,21 +253,27 @@ nav {
 .star-gazing {
     border-radius: 5%;
     background: url("../img/4.jpg") center no-repeat;
-    width: 100%;
+    background-size: cover;
 }
 
 .hiking {
-    background: url("img/ss.jpg") center no-repeat;
+    border-radius: 5%;
+    background: url("../img/2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#menu-item {
+    font-size: 1.8rem;
 }
 
 .camping {
-    background: url("img/lbaringo.jpg") center no-repeat;
+    background: url("../img/2.jpg") center no-repeat;
     width: 100%;
 }
 
 .activities-grid-item {
     font-size: 4rem;
-    color: #faccda;
+    color: #fafafa;
 }
 
 .activities-grid-item h1 {
@@ -267,11 +283,46 @@ nav {
     margin: 2rem 0;
 }
 
+
+
+.contacts {
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+.click-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.get-pizza {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.contact {
+    padding-top: 20px;
+}
 /* testimonials */
 .testimonials{
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url(img/lbaringo.jpg) center no-repeat fixed;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/1.jpg) center no-repeat fixed;
     background-size: cover;
     position: relative;
 }
@@ -355,10 +406,10 @@ nav {
 }
 
 footer {
-    padding: 2.5rem 0;
-    background-color: #d7d4ed;
+    padding: 0.3rem 0;
+    background-color: #050505;
     text-align: center;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* media querries */
