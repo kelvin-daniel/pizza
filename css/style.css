@@ -16,7 +16,10 @@ html {
 
 body {
     background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     ;
 }
 
@@ -313,6 +316,7 @@ input[type="email"] {
 .get-pizza {
     margin-top: 40px;
     width: 100%;
+    height: 50vh;
 }
 
 .contact {
@@ -399,14 +403,18 @@ input[type="email"] {
 
 #map {
     width: 100%;
-    height: 25vh;
+    height: 40vh;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%), url('img/map.gif') center no-repeat ;
     background-size: cover;
     position: relative;
 }
 
+.fab {
+    margin: 60px 15px 0 15px;
+}
+
 footer {
-    padding: 0.3rem 0;
+    padding: 2rem 0;
     background-color: #050505;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
