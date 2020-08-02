@@ -64,12 +64,12 @@
         <!-- activities grid -->
         <section class="experience-oudoors" id="order">
             <div class="orders" id="order">
-                <h1 class="text-center text-success" id="order-pizza">Make an <span class="text-warning"> Order</span></h1>
+                <h1 class="text-center text-success" id="order-pizza">Make an <span class="text-warning font-weight-bolder" > Order</span></h1>
                 <div class="form-group row">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8 order-overlay text-center">
                         <form class="col-sm-6 offset-sm-3 text-center">
-                            <label>Pick your pizza Flavour:</label>
+                            <label>Flavour:</label>
                             <select class="custom-select custom-select-md mb-3 flavour" required>
                                 <option value="vegtikka">Veg Tikka</option>
                                 <option value="chickentikka">Chicken Tikka</option>
@@ -110,7 +110,7 @@
                                 <option value="chicken">Periperi Chicken @ sh. 170</option>
                             </select>
                             <label for="number">Number of Pizza's</label>
-                            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+                            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" value="1" required>
 
 
                         </form>
@@ -123,6 +123,12 @@
                     </div>
                     <div class="col-sm-2"></div>
                 </div>
+            </div>
+            <div class="order-summary" id="sum-order">
+                <h1 class="text-center" id="summary">Order Summary</h1>
+                <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+                <ol id="list" class="text-center sum">
+                </ol>
             </div>
         </section>
 

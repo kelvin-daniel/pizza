@@ -229,6 +229,10 @@ nav {
     background-image: url(../img/menu2.png);
 }
 
+#ord{
+    background-color: yellowgreen;
+}
+
 #order {
     background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%),url(../img/menu2.png);
     background-size: cover;
