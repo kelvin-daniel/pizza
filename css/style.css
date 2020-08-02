@@ -14,6 +14,11 @@ html {
     scroll-behavior: smooth;
 }
 
+#checkk {
+    background: none;
+    color: black;
+}
+
 body {
     background-color: #85FFBD;
     background: #1D4350;  /* fallback for old browsers */
@@ -397,6 +402,13 @@ input[type="email"] {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
     margin-bottom: 2rem;
+}
+
+#mpesa{
+    border: 1px solid black ;
+    border-radius: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .info {
