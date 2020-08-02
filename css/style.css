@@ -409,6 +409,17 @@ input[type="email"] {
     border-radius: 3%;
     margin-left: 10px;
     margin-right: 10px;
+    width: 60%;
+}
+
+.cc-img {
+    margin: 0 auto;
+}
+
+#credit{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .info {
