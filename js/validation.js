@@ -1,9 +1,10 @@
 let size, email;
 size = document.getElementById('#size').value;
 email = document.getElementById('#email').value;
+email = document.getElementById('#email').value;
 
 function subscribe() {
-    alert("Hello " + email + "Thank for reaching out");
+    alert("Hi" + email + "Thank for reaching out");
     console.log(email);
 }
 
