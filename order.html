@@ -34,7 +34,7 @@
                     <i class="icon ion-md-close"></i>
                 </div>
                 <li class="nav-item">
-                    <a href="#" class="nav-link current">Home</a>
+                    <a href="index.html" class="nav-link current">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="order.html" class="nav-link">Order</a>
@@ -61,41 +61,65 @@
         </section>
         <!-- activities grid -->
         <section class="experience-oudoors">
-            <div class="container">
-                <div class="title-heading">
-                    <h3>Slices of life</h3>
-                    <h1>Me<span id="nu">nu</span></h1>
-                </div>
-                
-                <div class="activities-grid">
-                    <div class="activities-grid-item star-gazing">
-                        <i class="icon ion-md-pizza"></i>
-                        <h1>meat</h1>
-                        <ul>
-                            <li id="menu-item">Regina</li>
-                            <li id="menu-item">Swahili Chicken</li>
-                            <li id="menu-item">Margarita</li>
-                            <li id="menu-item">Chicken Supreme</li>
-                            <h1>PRICES</h1>
-                            <li id="menu-item">SMALL......... KSH.600</li>
-                            <li id="menu-item">REGULAR....KSH.800</li>
-                            <li id="menu-item">JUMBO.........KSH.1600</li>
-                        </ul>
-                    </div>
+            <div class="orders" id="order">
+                <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+                <div class="form-group row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8 order-overlay text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center">
+                            <label>Pick your pizza Flavour:</label>
+                            <select class="custom-select custom-select-md mb-3 flavour" required>
+                                <option value="vegtikka">Veg Tikka</option>
+                                <option value="chickentikka">Chicken Tikka</option>
+                                <option value="periperi">Peri-Peri Chicken</option>
+                                <option value="bbq">BBQ Steak</option>
+                                <option value="boerewors">Boerewors</option>
+                                <option value="hawaiian">Hawaiian</option>
+                                <option value="mushroom">Chicken and Mushroom</option>
+                                <option value="regina">Regina Pizza</option>
+                            </select>
+                            <label>Chose your preferred Size:</label>
+                            <select class="custom-select custom-select-md mb-3" id="size" required>
+                                <option value="regular">Regular</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                            <label for="crust">Choose your favorite Crust:</label>
+                            <select class="custom-select custom-select-md mb-3" id="crust" required>
+                                <option value="thin">Thin Crust @ Ksh. 100</option>
+                                <option value="thick">Thick Crust @ Ksh. 150</option>
+                                <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                                <option value="custom">Custom Crust @ sh. 280</option>
+                            </select>
+                            <label>Select Your favourite Toppings</label>
+                            <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                                <option value="tomato">Tomato @ sh. 80</option>
+                                <option value="onions">Onions @ sh. 80</option>
+                                <option value="mushroom">Mushroom @ sh. 80</option>
+                                <option value="greenpepper">Green Pepper @ sh. 80</option>
+                                <option value=""></option>
+                                <option value="olives">Olives @ sh. 120</option>
+                                <option value="pineapple">Pineapple @ sh. 120</option>
+                                <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                                <option value="macon">Macon @ sh. 120</option>
+                                <option value="mince">Mince @ sh. 120</option>
+                                <option value=""></option>
+                                <option value="beef">Beef Peperoni @ sh. 170</option>
+                                <option value="chicken">Periperi Chicken @ sh. 170</option>
+                            </select>
+                            <label for="number">Number of Pizza's</label>
+                            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
 
-                    <div class="activities-grid-item hiking">
-                        <i class="icon ion-md-pizza"><h1>vegeterian</h1></i>
-                        <ul>
-                            <li id="menu-item">Regina</li>
-                            <li id="menu-item">Swahili Chicken</li>
-                            <li id="menu-item">Margarita</li>
-                            <li id="menu-item">Chicken Supreme</li>
-                            <h1>PRICES</h1>
-                            <li id="menu-item">SMALL......... KSH.600</li>
-                            <li id="menu-item">REGULAR....KSH.800</li>
-                            <li id="menu-item">JUMBO.........KSH.1600</li>
-                        </ul>
-                    </div> 
+
+                        </form>
+                        <a href="#summary">
+                            <button type="submit" class="btn btn-success checkout" id="checkout">
+                                Checkout
+                            </button>
+                        </a>
+
+                    </div>
+                    <div class="col-sm-2"></div>
                 </div>
             </div>
         </section>
@@ -134,14 +158,14 @@
                         <a href=""><span class="fab fa-google-plus icon_googlep"></span></a>
                         <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
                     </div>
+                    <footer>
+                        <p>pizza piecer &copy; 2020. All rights reserved. </p>
+                    </footer>
                 </div>
             </div>
         </div>
         </section>
     </main>
-    <footer>
-        <p>pizza piecer &copy; 2020. All rights reserved. </p>
-    </footer>
     <script src="js/script.js"></script>
 </body>
 </html> 
