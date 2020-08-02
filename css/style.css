@@ -427,6 +427,16 @@ input[type="email"] {
     margin: 60px 15px 0 15px;
 }
 
+.pay {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.reset {
+    display: none;
+}
+
 footer {
     padding: 2rem 0;
     text-align: center;

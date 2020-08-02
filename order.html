@@ -58,7 +58,7 @@
                     <h1 class="font-effect-shadow-multiple">Pizza Piecer</h1>
                     <p>a piece? How about whole!</p>
                     <div class="cta">
-                        <a href="#" class="btn">order</a>
+                        <a href="index.html" class="btn">home</a>
                     </div>
                 </div>
             </div>
@@ -101,6 +101,7 @@
                                     </select>
                                     <label>Toppings</label>
                                     <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                                        <option value="none">No topping</option>
                                         <option value="tomato">Tomato</option>
                                         <option value="onions">Onions</option>
                                         <option value="mushroom">Mushroom</option>
@@ -135,8 +136,18 @@
                   <div class="col-sm">
                     <div class="order-summary" id="sum-order">
                         <h1 class="text-center text-success" id="summary">Order <span class="text-warning"> Summary</span></h1>
-                        <ol id="list" class="text-center  font-weight-bolder sum">
+                        <ol id="list" class="text-center font-weight-bolder sum">
                         </ol>
+                        <a href="">
+                            <button type="submit" class="pay btn btn-warning pay" id="pay">
+                                pay
+                            </button>
+                        </a>
+                        <a href="">
+                            <button type="submit" class="btn btn-danger reset" id="reset">
+                                something different ?
+                            </button>
+                        </a>
                     </div>
                   </div>
                 </div>
