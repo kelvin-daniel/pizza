@@ -17,6 +17,10 @@ selectElement('.deliver').addEventListener('click', () => {
     alert('Your order will be delivered to your location');
 });
 
+selectElement('.deliver').addEventListener('click', () => {
+    alert('Your order will be delivered to your location');
+});
+
 $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
