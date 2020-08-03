@@ -5,12 +5,13 @@ address = document.getElementById('#address').value;
 hno = document.getElementById('#hno').value;
 
 function subscribe() {
-    alert("Hi" + email + "Thank for reaching out");
+    alert("Thank you for reaching out");
     console.log(email);
 }
 
-let validateInput = (address) => {
-    if (address === "") {
-        console.log('we need your address first');
+let validateInput = () => {
+    if (size === "") {
+        console.log("Please specify the size");
     }
 }
+
