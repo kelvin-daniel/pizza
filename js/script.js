@@ -8,6 +8,15 @@ selectElement('.open').addEventListener('click', () => {
 selectElement('.close').addEventListener('click', () => {
     selectElement('.nav-list').classList.remove('active');
 }); 
+
+selectElement('.deliver').addEventListener('click', () => {
+    alert('Delivery will cost you an extra Ksh.200');
+});
+
+selectElement('.deliver').addEventListener('click', () => {
+    alert('Your order will be delivered to your location');
+});
+
 $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
