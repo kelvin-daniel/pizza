@@ -411,11 +411,8 @@ $(function () {
 
     //Deliver
     $(".deliver").click(function () {
-        $('#list').slideUp();
-        $('.summary').text("Provide location details").slideDown();
-        $('.pay').hide(500);
-        $('.reset').hide(1000);
-        $('.cdata-overlay').slideDown();
+        // $('div').animate({left: '250px'});
+        $('.cdata-overlay').slideToggle();
         event.preventDefault();
     });
 

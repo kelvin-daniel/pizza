@@ -1,7 +1,8 @@
-let size, email;
+let size, email, address, hno;
 size = document.getElementById('#size').value;
 email = document.getElementById('#email').value;
-email = document.getElementById('#email').value;
+address = document.getElementById('#address').value;
+hno = document.getElementById('#hno').value;
 
 function subscribe() {
     alert("Hi" + email + "Thank for reaching out");
@@ -11,5 +12,11 @@ function subscribe() {
 let validateInput = () => {
     if (size === "") {
         console.log("Please specify the size");
+    }
+}
+
+let validateInput = () => {
+    if (address === '') {
+        prompt('we need your address first')
     }
 }
