@@ -1,21 +1,3 @@
-// function expression to select elements
-const selectElement = (s) => document.querySelector(s);
-
-selectElement('.open').addEventListener('click', () => {
-    selectElement('.nav-list').classList.add('active');
-});
-
-selectElement('.close').addEventListener('click', () => {
-    selectElement('.nav-list').classList.remove('active');
-}); 
-
-selectElement('.deliver').addEventListener('click', () => {
-    alert('Delivery will cost you an extra Ksh.200');
-});
-
-selectElement('.delord').addEventListener('click', () => {
-    alert('Your order will be delivered to your location');
-});
 
 $(function () {
     $('.summary').hide();
@@ -45,7 +27,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -57,7 +39,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -69,7 +51,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -85,7 +67,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -97,7 +79,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -109,7 +91,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -125,7 +107,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -137,7 +119,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -149,7 +131,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -165,7 +147,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -177,7 +159,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "glutten-free") {
+                        } else if (crust === "glutten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -189,7 +171,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -205,7 +187,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -217,7 +199,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -229,7 +211,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -245,7 +227,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -257,7 +239,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -269,7 +251,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -285,7 +267,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -297,7 +279,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -309,7 +291,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -325,7 +307,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -337,7 +319,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -349,7 +331,7 @@ $(function () {
                             totalPrice = (price * number) + 100;
                         } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
-                        } else if (crust === "gluten-free") {
+                        } else if (crust === "gluten") {
                             totalPrice = (price * number) + 180;
                         } else {
                             totalPrice = (price * number) + 280;
@@ -397,12 +379,8 @@ $(function () {
 
         //Execute order function
         let newOrder = order(flavour, size, crust, topping, number, totalPrice);
-        console.log(newOrder); // test func
-
-        //create a new object
-        // let myOrder = JSON.stringify(JSON.parse(newOrder));
-
-        //Write to the order
+        console.log(newOrder);
+        $('.cdata-overlay').slideUp();
         $('.summary').slideDown(2000);
         $('#list').slideDown();
         $('.pay').show(550);
@@ -420,10 +398,36 @@ $(function () {
 
     //Deliver
     $(".deliver").click(function () {
+        $('.summary').slideDown(2000);
+        $('#list').slideDown();
         // $('div').animate({left: '250px'});
         $('.cdata-overlay').slideToggle();
+        $('.deliver').hide(1000);
+        $('.delivernot').hide(1000);
+        $('.cdata-overlay').slideDown();
         event.preventDefault();
     });
+
+
+    // function expression to select elements
+const selectElement = (s) => document.querySelector(s);
+
+selectElement('.open').addEventListener('click', () => {
+    selectElement('.nav-list').classList.add('active');
+});
+
+selectElement('.close').addEventListener('click', () => {
+    selectElement('.nav-list').classList.remove('active');
+}); 
+
+selectElement('.deliver').addEventListener('click', () => {
+    alert('Delivery will cost you an extra Ksh.200');
+});
+
+selectElement('.delord').addEventListener('click', () => {
+    alert('Your order will be delivered to your location');
+});
+
 
 
     //Pick Up
