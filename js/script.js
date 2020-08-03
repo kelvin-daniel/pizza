@@ -344,6 +344,9 @@ $(function () {
             case topping = "none":
                 totalPrice = totalPrice + 0;
                 break;
+            case topping = "tomato":
+                totalPrice = totalPrice + 100;
+            break;
             case topping = "onions":
                 totalPrice = totalPrice + 100;
                 break;
