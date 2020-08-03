@@ -411,12 +411,12 @@ $(function () {
 
     //Deliver
     $(".deliver").click(function () {
-        $('.summary').slideUp();
         $('#list').slideUp();
         $('.summary').text("Provide location details").slideDown();
         $('.pay').hide(500);
         $('.reset').hide(1000);
         $('.cdata-overlay').slideDown();
+        event.preventDefault();
     });
 
 
