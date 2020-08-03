@@ -1,20 +1,16 @@
-// function expression to sselect elements
+// function expression to select elements
 const selectElement = (s) => document.querySelector(s);
-// open the menu on click
+
 selectElement('.open').addEventListener('click', () => {
     selectElement('.nav-list').classList.add('active');
 });
-// close the menu on click
+
 selectElement('.close').addEventListener('click', () => {
     selectElement('.nav-list').classList.remove('active');
 }); 
 
 selectElement('.deliver').addEventListener('click', () => {
     alert('Delivery will cost you an extra Ksh.200');
-});
-
-selectElement('.deliver').addEventListener('click', () => {
-    alert('Your order will be delivered to your location');
 });
 
 selectElement('.deliver').addEventListener('click', () => {
@@ -45,9 +41,9 @@ $(function () {
                 switch (size) {
                     case size = "small":
                         price = 600;
-                        if (crust === "thin") {
+                        if (crust === "crusty") {
                             totalPrice = (price * number) + 100;
-                        } else if (crust === "thick") {
+                        } else if (crust === "stuffed") {
                             totalPrice = (price * number) + 150;
                         } else if (crust === "flatbread") {
                             totalPrice = (price * number) + 180;
