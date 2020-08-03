@@ -13,7 +13,7 @@ selectElement('.deliver').addEventListener('click', () => {
     alert('Delivery will cost you an extra Ksh.200');
 });
 
-selectElement('.deliver').addEventListener('click', () => {
+selectElement('.delord').addEventListener('click', () => {
     alert('Your order will be delivered to your location');
 });
 

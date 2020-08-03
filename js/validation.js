@@ -9,14 +9,8 @@ function subscribe() {
     console.log(email);
 }
 
-let validateInput = () => {
-    if (size === "") {
-        console.log("Please specify the size");
-    }
-}
-
-let validateInput = () => {
-    if (address === '') {
-        prompt('we need your address first')
+let validateInput = (address) => {
+    if (address === "") {
+        console.log('we need your address first');
     }
 }
