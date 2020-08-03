@@ -410,7 +410,7 @@ $(function () {
     });
 
     //Deliver
-    $(".deliver").click(function () {
+    $(".deliver").click event preventD(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
         $('.summary').text("Provide location details").slideDown();

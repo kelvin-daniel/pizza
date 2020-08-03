@@ -176,6 +176,17 @@ nav {
     text-transform: lowercase;
 }
 
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
 .btn {
     background-color: #10bd1f;
     border-radius: 2rem;
